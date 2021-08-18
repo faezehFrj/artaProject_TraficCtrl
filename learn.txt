@@ -36,4 +36,5 @@ git branch name_branch
 ++move to another branch
 git sheckout name_branch
 ++marge cardan ba branch asl
-git merge name-branch
+git marge name-branch
+
