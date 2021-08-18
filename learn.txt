@@ -25,3 +25,15 @@ git diff head
 bargardondan be halat ghabli projero
 
 gid checkout -- "name file"
+
+
+branch
+
+++branch haye mojod ro neshon mide
+git branch
+++create new branch
+git branch name_branch
+++move to another branch
+git sheckout name_branch
+++marge cardan ba branch asl
+git marge name-branch
