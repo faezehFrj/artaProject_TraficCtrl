@@ -36,4 +36,48 @@ git branch name_branch
 ++move to another branch
 git sheckout name_branch
 ++marge cardan ba branch asl
-git marge name-branch
+git merge name-branch
+++delete branch
+git branch -d name-branch
+
+
+push pull git lab
+
+++az yek repository dakhele githum yek project clone mikonim
+git clone address
+
+++origine manba asli hast ke dar github hast va man azash clone mikonam
+++push konam age ejaze daram
+git push origin master
+
+
+++remoot
+
+++mitone addresi bashe ke sherkat mide behem mitone add git repositori man bashe
+git remote add origin addres
+++tozihate bishtar mide
+git remote -v
+++hala ke in repository ro moarefi kardim miyam ba dastor push ,push mikinam project tosh
+git push -u irigin master  
+
+++conflict
+
+++neshon mide toye commit che kardi
+git show id_commit
+ke in az tarigh 
+git log
+
+
+++tag
+
+mitonim baraye commit hamon version bezanim masalan ta inja shode v2.0
+
+git tag -a name-version -m "the first version"
+or 
+git tag -a name-version name-commit -m "the first version"
+++nokte:version ha push nemishan khodeshon ya commit bayad begim ke beshe
+git push origin name-version
+or git push origin --tag
+++show tag
+git tag -l
+
