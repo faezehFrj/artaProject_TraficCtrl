@@ -1,0 +1,27 @@
+create repository:
+git init
+
+go to the stage:
+git add -A 
+git add "index.html"
+git add "page*"
+
+restage:
+git reset "name.html"
+
+commite baraye inke taghirat save beshe:
+
+git commit -m "yor message"
+
+ page haye ma aval untrackat hastan yani git beheshon kar nadare.
+	miyaym moarefi mikonim be git page moni
+
+
+baraye in ke bebinam che taghirati dadam man :
+head yani akharin commiti ke cardam on onjas
+git diff head
+
+
+bargardondan be halat ghabli projero
+
+gid checkout -- "name file"
